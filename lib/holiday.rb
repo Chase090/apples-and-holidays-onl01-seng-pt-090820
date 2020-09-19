@@ -39,8 +39,7 @@ holiday_hash[:spring][:memorial_day] << supply
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-  # code here
-  # remember to return the updated hash
+  # modifies the original hash by adding supplies of a new holiday to a season
  holiday_hash[season][holiday_name] = supply_array
   holiday_hash
 end
